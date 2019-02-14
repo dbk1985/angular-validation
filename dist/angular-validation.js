@@ -119,7 +119,7 @@ angular.module('validation.directive', ['validation.provider']);
      * @returns {string}
      */
     this.getErrorHTML = function(message) {
-      return '<p class="validation-invalid">' + message + '</p>';
+      return message && angular.isString(message) ? '<p class="validation-invalid">' + message + '</p>' : '';
     };
 
     /**
