@@ -137,7 +137,7 @@
      * @returns {string}
      */
     this.getSuccessHTML = function(message) {
-      return '<p class="validation-valid">' + message + '</p>';
+      return message && angular.isString(message) ? '<p class="validation-valid">' + message + '</p>' : '';
     };
 
     /**
