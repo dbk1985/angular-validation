@@ -9,7 +9,7 @@ Package.describe({
   name: options.packageName,
   version: options.version,
   summary: 'Client-side Validation for AngularJS',
-  git: 'https://github.com/huei90/angular-validation',
+  git: 'https://github.com/dbk1985/angular-validation.git',
   documentation: 'README.md'
 });
 
